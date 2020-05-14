@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-26T14:54:06 IST" name="Default suite" finished-at="2020-04-26T14:54:06 IST" duration-ms="144">
+    <groups>
+    </groups>
+    <test started-at="2020-04-26T14:54:06 IST" name="Default test" finished-at="2020-04-26T14:54:06 IST" duration-ms="144">
+      <class name="Testng.DriveaCar">
+        <test-method signature="startacar()[pri:1, instance:Testng.DriveaCar@558bdf1f]" started-at="2020-04-26T14:54:06 IST" name="startacar" finished-at="2020-04-26T14:54:06 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startacar -->
+        <test-method signature="putsecondgear()[pri:3, instance:Testng.DriveaCar@558bdf1f]" started-at="2020-04-26T14:54:06 IST" name="putsecondgear" finished-at="2020-04-26T14:54:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putsecondgear -->
+        <test-method signature="putthirdgear()[pri:4, instance:Testng.DriveaCar@558bdf1f]" started-at="2020-04-26T14:54:06 IST" name="putthirdgear" finished-at="2020-04-26T14:54:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putthirdgear -->
+        <test-method signature="putfourthgear()[pri:5, instance:Testng.DriveaCar@558bdf1f]" started-at="2020-04-26T14:54:06 IST" name="putfourthgear" finished-at="2020-04-26T14:54:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putfourthgear -->
+      </class> <!-- Testng.DriveaCar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

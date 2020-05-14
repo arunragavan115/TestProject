@@ -1,0 +1,23 @@
+ 
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="car_suite">
+
+	<test name="Testng">
+		<classes>
+			<class name="Testng.DriveaCar" />
+		</classes>
+	</test>
+
+	<test name="NewTest">
+		<classes>
+			<class name="Testng.NewTest" />
+		</classes>
+	</test>
+	<test name="NewTest2">
+		<classes>
+			<class name="Testng.NewTest2" />
+
+		</classes>
+	</test>
+</suite>

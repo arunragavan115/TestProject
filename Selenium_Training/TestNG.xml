@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testsuite" verbose="2" parallel="methods" thread-count="2">                   <!-- parallel testing in same time -->
+
+	<test name="testcases">	
+	<classes>
+	
+		<class name="Testng.ParallelTesting"></class>
+		
+		<class name ="Testng.SampleTestCase"></class>
+		<class name="Testng.ParameterizationExample"></class>
+			<class name ="Testng.AnnotationsHierachyExample"></class>
+		<class name="Testng.DependanciesManagement"></class> 
+				<class name="Testng.DriveaCar"></class>
+				 <class name="Testng.NewTest"></class> 
+				<class name="Testng.NewTest2"></class> 
+				<class name="Testng.NewTest3"></class> 
+				<class name="Testng.SampleTestCase"></class>
+				 <class name="Testng.SkipATestCase"></class> 
+				<class name="Testng.SuiteExample"></class> 
+				<class name="Testng.GroupingExample"></class>
+			</classes>
+		</test>
+</suite>
+
+<!-- <groups>
+ <run>
+  <include name="moto"></include> 				//this only runs moto and vivo test case in GroupingExample
+	 <include name="vivo"></include>
+	  </run> 
+	</groups> -->
+	
+	<!-- <listeners>
+	<listener class-name="Testng.ListenersExample"></listener>
+</listeners> -->
