@@ -35,7 +35,7 @@ public class String_Examples {
 		System.out.println(name.substring(1));
 		
 		//take particular portion of the string begin and end index. [begin index wont include , upto end index only include]
-		System.out.println(name.substring(1, 7));
+		System.out.println("substring   "+name.substring(1, 7));
 		
 		//appends/add  the string to the given string
 		System.out.println(name.concat("1996"));
