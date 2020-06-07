@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-07T11:13:04 IST" name="Default suite" finished-at="2020-06-07T11:14:03 IST" duration-ms="58606">
+    <groups>
+    </groups>
+    <test started-at="2020-06-07T11:13:04 IST" name="Default test" finished-at="2020-06-07T11:14:03 IST" duration-ms="58606">
+      <class name="LoginTestCases.Login">
+        <test-method signature="Logincorrect(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCases.Login@37f1104d]" started-at="2020-06-07T11:13:04 IST" name="Logincorrect" data-provider="logindata" finished-at="2020-06-07T11:13:26 IST" duration-ms="21690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logincorrect -->
+        <test-method signature="Logincorrect(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCases.Login@37f1104d]" started-at="2020-06-07T11:13:26 IST" name="Logincorrect" data-provider="logindata" finished-at="2020-06-07T11:13:38 IST" duration-ms="12692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logincorrect -->
+        <test-method signature="Logincorrect(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCases.Login@37f1104d]" started-at="2020-06-07T11:13:38 IST" name="Logincorrect" data-provider="logindata" finished-at="2020-06-07T11:13:51 IST" duration-ms="12485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logincorrect -->
+        <test-method signature="Logincorrect(java.lang.String, java.lang.String)[pri:0, instance:LoginTestCases.Login@37f1104d]" started-at="2020-06-07T11:13:51 IST" name="Logincorrect" data-provider="logindata" finished-at="2020-06-07T11:14:03 IST" duration-ms="11651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logincorrect -->
+      </class> <!-- LoginTestCases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
